@@ -5,3 +5,16 @@
     font-size: 20px;
     color: #ffffff;
 }
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    background-color: #ffffff;
+    font-size: 17px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
