@@ -138,10 +138,12 @@ li {
 .images {
     width: 33%;
     padding-right: 10px;
+    position: relative;
 }
 
 .last-image {
     width: 33%;
+    position: relative;
 }
 
 .image-width {
@@ -150,4 +152,18 @@ li {
 
 .padding-bottom {
     padding-bottom: 1.6rem;
+}
+
+.image-cover {
+    width: 320px;
+    height: 213px;
+    position: absolute;
+    top: 0;
+}
+
+.image-cover:hover {
+    background-image: url(images/Untitled\ design\ \(2\).png);
+    background-position-x: center;
+    opacity: 0.9;
+    transition: all 0.5s ease;
 }
