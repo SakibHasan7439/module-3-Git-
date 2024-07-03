@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .container {
     width: 40%;
     padding: 2rem;
@@ -9,12 +11,20 @@
     margin-bottom: 2rem;
 }
 
-button {
+.read-button {
     padding: 12px 18px;
     border: none;
     border-bottom-right-radius: 10px;
     background-color: #ffffff;
     font-size: 17px;
+    background-size: 0%;
+    background-image: linear-gradient(to right, #008000, #eaff00);
+    transition: all 0.5s;
+}
+
+.read-button:hover {
+    background-size: 100%;
+    color: #ffffff;
 }
 
 a {
@@ -24,8 +34,32 @@ a {
 
 .my-image {
     width: 100%;
+    padding-bottom: 1.5rem;
 }
 
 .img-width {
     width: 100%;
+}
+
+.view-btn {
+    text-align: center;
+}
+
+.newLearnBtn {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.7);
+    padding: 15px 45px;
+    background-color: transparent;
+    background-size: 0%;
+    background-image: linear-gradient(to right,  #008000, #eaff00);
+    bottom: 5px solid #ed4264;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.newLearnBtn:hover {
+    background-size: 100%;
+    color: #ffffff;
 }
